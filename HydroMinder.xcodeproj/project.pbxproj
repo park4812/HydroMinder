@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E94D25D2BC56B3700104FDB /* HydroMinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D25C2BC56B3700104FDB /* HydroMinderApp.swift */; };
+		4E94D25F2BC56B3700104FDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D25E2BC56B3700104FDB /* ContentView.swift */; };
+		4E94D2612BC56B3900104FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E94D2602BC56B3900104FDB /* Assets.xcassets */; };
+		4E94D2642BC56B3900104FDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E94D2632BC56B3900104FDB /* Preview Assets.xcassets */; };
+		4E94D2662BC56B3900104FDB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D2652BC56B3900104FDB /* Persistence.swift */; };
+		4E94D2692BC56B3900104FDB /* HydroMinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D2672BC56B3900104FDB /* HydroMinder.xcdatamodeld */; };
+		4E94D2732BC56B3A00104FDB /* HydroMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D2722BC56B3A00104FDB /* HydroMinderTests.swift */; };
+		4E94D27D2BC56B3A00104FDB /* HydroMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D27C2BC56B3A00104FDB /* HydroMinderUITests.swift */; };
+		4E94D27F2BC56B3A00104FDB /* HydroMinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94D27E2BC56B3A00104FDB /* HydroMinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E94D26F2BC56B3900104FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E94D2512BC56B3700104FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E94D2582BC56B3700104FDB;
+			remoteInfo = HydroMinder;
+		};
+		4E94D2792BC56B3A00104FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E94D2512BC56B3700104FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E94D2582BC56B3700104FDB;
+			remoteInfo = HydroMinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E94D2592BC56B3700104FDB /* HydroMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E94D25C2BC56B3700104FDB /* HydroMinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMinderApp.swift; sourceTree = "<group>"; };
+		4E94D25E2BC56B3700104FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E94D2602BC56B3900104FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E94D2632BC56B3900104FDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E94D2652BC56B3900104FDB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4E94D2682BC56B3900104FDB /* HydroMinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydroMinder.xcdatamodel; sourceTree = "<group>"; };
+		4E94D26E2BC56B3900104FDB /* HydroMinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroMinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E94D2722BC56B3A00104FDB /* HydroMinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMinderTests.swift; sourceTree = "<group>"; };
+		4E94D2782BC56B3A00104FDB /* HydroMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E94D27C2BC56B3A00104FDB /* HydroMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMinderUITests.swift; sourceTree = "<group>"; };
+		4E94D27E2BC56B3A00104FDB /* HydroMinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E94D2562BC56B3700104FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D26B2BC56B3900104FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D2752BC56B3A00104FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E94D2502BC56B3700104FDB = {
+			isa = PBXGroup;
+			children = (
+				4E94D25B2BC56B3700104FDB /* HydroMinder */,
+				4E94D2712BC56B3A00104FDB /* HydroMinderTests */,
+				4E94D27B2BC56B3A00104FDB /* HydroMinderUITests */,
+				4E94D25A2BC56B3700104FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E94D25A2BC56B3700104FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D2592BC56B3700104FDB /* HydroMinder.app */,
+				4E94D26E2BC56B3900104FDB /* HydroMinderTests.xctest */,
+				4E94D2782BC56B3A00104FDB /* HydroMinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E94D25B2BC56B3700104FDB /* HydroMinder */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D25C2BC56B3700104FDB /* HydroMinderApp.swift */,
+				4E94D25E2BC56B3700104FDB /* ContentView.swift */,
+				4E94D2602BC56B3900104FDB /* Assets.xcassets */,
+				4E94D2652BC56B3900104FDB /* Persistence.swift */,
+				4E94D2672BC56B3900104FDB /* HydroMinder.xcdatamodeld */,
+				4E94D2622BC56B3900104FDB /* Preview Content */,
+			);
+			path = HydroMinder;
+			sourceTree = "<group>";
+		};
+		4E94D2622BC56B3900104FDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D2632BC56B3900104FDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E94D2712BC56B3A00104FDB /* HydroMinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D2722BC56B3A00104FDB /* HydroMinderTests.swift */,
+			);
+			path = HydroMinderTests;
+			sourceTree = "<group>";
+		};
+		4E94D27B2BC56B3A00104FDB /* HydroMinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D27C2BC56B3A00104FDB /* HydroMinderUITests.swift */,
+				4E94D27E2BC56B3A00104FDB /* HydroMinderUITestsLaunchTests.swift */,
+			);
+			path = HydroMinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E94D2582BC56B3700104FDB /* HydroMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E94D2822BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinder" */;
+			buildPhases = (
+				4E94D2552BC56B3700104FDB /* Sources */,
+				4E94D2562BC56B3700104FDB /* Frameworks */,
+				4E94D2572BC56B3700104FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroMinder;
+			productName = HydroMinder;
+			productReference = 4E94D2592BC56B3700104FDB /* HydroMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E94D26D2BC56B3900104FDB /* HydroMinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E94D2852BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinderTests" */;
+			buildPhases = (
+				4E94D26A2BC56B3900104FDB /* Sources */,
+				4E94D26B2BC56B3900104FDB /* Frameworks */,
+				4E94D26C2BC56B3900104FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E94D2702BC56B3900104FDB /* PBXTargetDependency */,
+			);
+			name = HydroMinderTests;
+			productName = HydroMinderTests;
+			productReference = 4E94D26E2BC56B3900104FDB /* HydroMinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E94D2772BC56B3A00104FDB /* HydroMinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E94D2882BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinderUITests" */;
+			buildPhases = (
+				4E94D2742BC56B3A00104FDB /* Sources */,
+				4E94D2752BC56B3A00104FDB /* Frameworks */,
+				4E94D2762BC56B3A00104FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E94D27A2BC56B3A00104FDB /* PBXTargetDependency */,
+			);
+			name = HydroMinderUITests;
+			productName = HydroMinderUITests;
+			productReference = 4E94D2782BC56B3A00104FDB /* HydroMinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E94D2512BC56B3700104FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4E94D2582BC56B3700104FDB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4E94D26D2BC56B3900104FDB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E94D2582BC56B3700104FDB;
+					};
+					4E94D2772BC56B3A00104FDB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E94D2582BC56B3700104FDB;
+					};
+				};
+			};
+			buildConfigurationList = 4E94D2542BC56B3700104FDB /* Build configuration list for PBXProject "HydroMinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E94D2502BC56B3700104FDB;
+			productRefGroup = 4E94D25A2BC56B3700104FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E94D2582BC56B3700104FDB /* HydroMinder */,
+				4E94D26D2BC56B3900104FDB /* HydroMinderTests */,
+				4E94D2772BC56B3A00104FDB /* HydroMinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E94D2572BC56B3700104FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94D2642BC56B3900104FDB /* Preview Assets.xcassets in Resources */,
+				4E94D2612BC56B3900104FDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D26C2BC56B3900104FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D2762BC56B3A00104FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E94D2552BC56B3700104FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94D2662BC56B3900104FDB /* Persistence.swift in Sources */,
+				4E94D2692BC56B3900104FDB /* HydroMinder.xcdatamodeld in Sources */,
+				4E94D25F2BC56B3700104FDB /* ContentView.swift in Sources */,
+				4E94D25D2BC56B3700104FDB /* HydroMinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D26A2BC56B3900104FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94D2732BC56B3A00104FDB /* HydroMinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E94D2742BC56B3A00104FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94D27F2BC56B3A00104FDB /* HydroMinderUITestsLaunchTests.swift in Sources */,
+				4E94D27D2BC56B3A00104FDB /* HydroMinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E94D2702BC56B3900104FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E94D2582BC56B3700104FDB /* HydroMinder */;
+			targetProxy = 4E94D26F2BC56B3900104FDB /* PBXContainerItemProxy */;
+		};
+		4E94D27A2BC56B3A00104FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E94D2582BC56B3700104FDB /* HydroMinder */;
+			targetProxy = 4E94D2792BC56B3A00104FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E94D2802BC56B3A00104FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E94D2812BC56B3A00104FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E94D2832BC56B3A00104FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroMinder/Preview Content\"";
+				DEVELOPMENT_TEAM = CARXY296R8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E94D2842BC56B3A00104FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroMinder/Preview Content\"";
+				DEVELOPMENT_TEAM = CARXY296R8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E94D2862BC56B3A00104FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CARXY296R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroMinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroMinder";
+			};
+			name = Debug;
+		};
+		4E94D2872BC56B3A00104FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CARXY296R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroMinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroMinder";
+			};
+			name = Release;
+		};
+		4E94D2892BC56B3A00104FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CARXY296R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroMinder;
+			};
+			name = Debug;
+		};
+		4E94D28A2BC56B3A00104FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CARXY296R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HydroMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroMinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E94D2542BC56B3700104FDB /* Build configuration list for PBXProject "HydroMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E94D2802BC56B3A00104FDB /* Debug */,
+				4E94D2812BC56B3A00104FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E94D2822BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E94D2832BC56B3A00104FDB /* Debug */,
+				4E94D2842BC56B3A00104FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E94D2852BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E94D2862BC56B3A00104FDB /* Debug */,
+				4E94D2872BC56B3A00104FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E94D2882BC56B3A00104FDB /* Build configuration list for PBXNativeTarget "HydroMinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E94D2892BC56B3A00104FDB /* Debug */,
+				4E94D28A2BC56B3A00104FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E94D2672BC56B3900104FDB /* HydroMinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E94D2682BC56B3900104FDB /* HydroMinder.xcdatamodel */,
+			);
+			currentVersion = 4E94D2682BC56B3900104FDB /* HydroMinder.xcdatamodel */;
+			path = HydroMinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E94D2512BC56B3700104FDB /* Project object */;
+}
