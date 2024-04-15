@@ -214,11 +214,12 @@
 			};
 			buildConfigurationList = 4E94D2542BC56B3700104FDB /* Build configuration list for PBXProject "HydroMinder" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 4E94D2502BC56B3700104FDB;
 			productRefGroup = 4E94D25A2BC56B3700104FDB /* Products */;
